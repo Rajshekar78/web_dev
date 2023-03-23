@@ -1,0 +1,64 @@
+body {
+  background-color:#EAF6F6;
+}
+/* h1 {
+  color: Green;
+} */
+#R {
+  color: Black;
+  font-size: 50px;
+  font-weight: Bold;
+  font-family: serif;
+/*  font-style: italic;
+font-variant: small-caps;
+font-stretch: extra-condensed;
+font-kerning: auto;*/
+}
+/*
+#A {
+  color: Black;
+  font-size: 50px;
+  font-weight: Bold;
+  font-family: fantasy;
+}
+
+#J {
+  color: Black;
+  font-size: 50px;
+  font-weight: Bold;
+  font-family: inherit;
+}
+
+#S {
+  color: Black;
+  font-size: 50px;
+  font-weight: Bold;
+ font-family: monospace;
+}
+
+#H {
+  color: Black;
+  font-size: 50px;
+  font-weight: Bold;
+  font-family: sans-serif;
+}
+
+#E {
+  color: Black;
+  font-size: 50px;
+  font-family: serif;
+}*/
+h3 {
+  color: blue;
+}
+hr {
+  color: pink;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+.cir {
+border-radius: 150%;
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- Adding the Fabric JS Library-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/510/fabric.min.js"></script>
+</head>
+<body>
+   <h2>Default appearance when scaleY is not used</h2>
+   <p>You can see that there is no resizing along the y-axis</p>
+   <canvas id="canvas"></canvas>
+   <script>
+      // Initiate a canvas instance
+      var canvas = new fabric.Canvas("canvas");
+      canvas.setWidth(document.body.scrollWidth);
+      canvas.setHeight(250);
+
+      // Initiate a triangle object
+      var triangle = new fabric.Triangle({
+         left: 105,
+         top: 70,
+         width: 90,
+         height: 80,
+         fill: "#746cc0",
+         stroke: "#967bb6",
+         strokeWidth: 5,
+      });
+
+      // Add it to the canvas
+      canvas.add(triangle);
+   </script>
+</body>
+</html>

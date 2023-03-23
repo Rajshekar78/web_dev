@@ -1,0 +1,64 @@
+/* body {
+    background-image: url("1.PNG");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    
+}    */
+
+/* h1{
+    background: linear-gradient( to left, white, rgb(71, 71, 141));
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+}
+p{
+    background: linear-gradient(  to left,lightgreen, white);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+} */
+/* body{
+    margin: 0px;
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: rgb(112, 216, 96);
+    padding: 50px;
+} */
+/* img{
+    float: right ;
+} */
+
+ 
+ #box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: aquamarine;
+    padding: 50px;
+
+
+    animation: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+
+ @keyframes slide{
+    from{margin-left: 100%;}
+    to{margin-right:0%;}
+ }

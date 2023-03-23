@@ -1,0 +1,25 @@
+                                              /*TAG SELECTORS*/
+h1 {
+  color: red;
+  font-size: 50px;
+}
+img:hover {
+  background-color: SILVER;
+}
+                                             /*CLASS SELECTORS*/
+.bacon {
+  background-color: blue;
+}
+.bro {
+  background-color: brown;
+}
+                                            /*ID SELECTORS*/
+#heading {
+  color: Blue;
+
+}
+
+#heading:hover {
+  color: Yellow;
+
+}
