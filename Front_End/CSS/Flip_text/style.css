@@ -1,12 +1,26 @@
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0;
+    padding: 50px;
+    padding-top: 200px; */
     font-size: 14vw;
     text-align: center;
   }
 
   .kodfun {
     display: flex;
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
+
+  /* display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; */
 
   .kodfun > span {
     display: inline-block;
